@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScreenScene.unity
+    guid: cfd04760c7eb15946b67b6ba112b1f5c
+  - enabled: 1
+    path: Assets/Scenes/LoadScene.unity
+    guid: 9923fbf34c0dfa441a3f7338cbdde244
+  - enabled: 1
+    path: Assets/Scenes/OptionsScene.unity
+    guid: cb177ff598aa37446bd56db673352400
+  - enabled: 1
+    path: Assets/Scenes/PauseScreen.unity
+    guid: ad90a5c77e435034f85b6f15705dd15f
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/OpeningScene.unity
+    guid: f06594dbc18e18846a47dd2ad8087f34
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/TheKingdomScene.unity
+    guid: 8f2c8819cad4954409ca47337c184f51
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/TheForest1.unity
+    guid: 3ffe5759cbea6c84b904e72922b5e1d6
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/TheForest2.unity
+    guid: 9abac2e555fea82489dd99654569cee9
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/Treetops1.unity
+    guid: d99656c388fc2ba42838dc7c41c2faec
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/Treetops2.unity
+    guid: b73fde97b5eea6b4ea626ddea02da49d
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/QuestCompleteScene.unity
+    guid: b12b792e333f4694097881381d4c5261
+  - enabled: 1
+    path: Assets/Scenes/BossBattle1.unity
+    guid: 94d4bd6e95f9c444bad7cba5984191ed
+  - enabled: 1
+    path: Assets/Scenes/TrainingConfirmScreen.unity
+    guid: 9dada13ca872a4b41a15fb681bd7fd97
+  - enabled: 1
+    path: Assets/Scenes/TrainingImprovementScreen.unity
+    guid: 2d7a744cd6abcef4d9d8366ecdc17007
+  - enabled: 1
+    path: Assets/Scenes/TrainingGrounds/TrainingGrounds.unity
+    guid: 804fa831c0c87564e8be417fd95a5413
+  - enabled: 1
+    path: Assets/Scenes/TrainingGrounds/CombatTraining.unity
+    guid: 91eebee4c170f24498ce66bf64b4df29
+  - enabled: 1
+    path: Assets/Scenes/TrainingGrounds/DodgeTraining.unity
+    guid: 7702953e05b9cf3459cd3d106c86eeb6
+  - enabled: 1
+    path: Assets/Scenes/TrainingGrounds/StrengthTraining.unity
+    guid: 2a108e73ed2e09b4c8a7ccca12b88cee
+  m_configObjects: {}
