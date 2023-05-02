@@ -17,10 +17,11 @@ public class ChaliceButtonScript : MonoBehaviour
 
     // Called when the chalice button is clicked
     public void CollectChalice()
-    {
-        playerDamageScript.CollectChalice();
-        chaliceButton.interactable = false;
-        chaliceButton.onClick.AddListener(DestroyButton);
+    { 
+        Debug.Log("CollectChalice");
+        //playerDamageScript.CollectChalice();
+        //chaliceButton.interactable = false;
+        //chaliceButton.onClick.AddListener(DestroyButton);
     }
 
     void DestroyButton()

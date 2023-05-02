@@ -39,6 +39,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial Scenes/QuestCompleteScene.unity
     guid: b12b792e333f4694097881381d4c5261
   - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/GameOverScene.unity
+    guid: 381687263b73e1543a3c8870cb01d561
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scenes/CreditsScene.unity
+    guid: 000f6adb25489a141abfdb6316784950
+  - enabled: 1
     path: Assets/Scenes/BossBattle1.unity
     guid: 94d4bd6e95f9c444bad7cba5984191ed
   - enabled: 1

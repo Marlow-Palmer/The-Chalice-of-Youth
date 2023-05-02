@@ -18,8 +18,9 @@ public class EnemyDamageScript : MonoBehaviour
     //ASK PROFESSOR ABOUT THIS
 
     // Called when the enemy object takes damage
-    /*public void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
+        /*
         if (PlayerImmortality.isImmortal) // Check if the player is immortal
         {
             Die(); // The enemy dies if the player is immortal
@@ -29,8 +30,8 @@ public class EnemyDamageScript : MonoBehaviour
             PlayerImmortality playerDamageScript = FindObjectOfType<PlayerImmortality>(); // Find the player damage script
             playerDamageScript.Die(); // The player dies if the player is not immortal
         }
+        */
     }
-    */
 
     // Called when the enemy object dies
     void Die()
@@ -41,5 +42,14 @@ public class EnemyDamageScript : MonoBehaviour
         }
 
         Destroy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        PlayerImmortality PI = collision.gameObject.GetComponentInParent<PlayerImmortality>(); 
+        if (PI)
+        {
+            Debug.Log("Hit Player"); 
+        }
     }
 }
