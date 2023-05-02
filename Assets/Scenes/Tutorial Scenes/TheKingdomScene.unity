@@ -649,7 +649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40.5, y: -40.5}
+  m_AnchoredPosition: {x: -23.4, y: -40.5}
   m_SizeDelta: {x: 25, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760509558
@@ -763,6 +763,7 @@ GameObject:
   - component: {fileID: 1215855635}
   - component: {fileID: 1215855638}
   - component: {fileID: 1215855639}
+  - component: {fileID: 1215855640}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -885,6 +886,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1215855640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215855633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5265c8918d1ddde429d3d463fca693fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  currentHealth: 0
+  isImmortal: 0
+  chalice: {fileID: 0}
 --- !u!1 &1249618423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1049,6 @@ GameObject:
   - component: {fileID: 1367812002}
   - component: {fileID: 1367812001}
   - component: {fileID: 1367812000}
-  - component: {fileID: 1367812003}
   m_Layer: 5
   m_Name: GoBackButton
   m_TagString: Untagged
@@ -1155,20 +1171,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367811998}
   m_CullTransparentMesh: 1
---- !u!114 &1367812003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367811998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c243935fad09d646b5df55acb409d67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1215855633}
-  distanceThreshold: 3
 --- !u!1 &1498563489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,3 +1433,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1215855633}
   distanceThreshold: 3
+  button: {fileID: 0}
