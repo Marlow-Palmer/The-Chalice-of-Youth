@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMoveScript : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 350f;
 
     // Update is called once per frame
     void Update()
