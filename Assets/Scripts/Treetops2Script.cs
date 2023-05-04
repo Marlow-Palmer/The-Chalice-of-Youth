@@ -7,6 +7,6 @@ public class Treetops2Script : MonoBehaviour
 {
     public void GoBackButton()
     {
-        SceneManager.LoadScene("Treetops1");
+        SceneManager.LoadScene("ImmortalTreetops1");
     }
 }

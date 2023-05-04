@@ -9,4 +9,10 @@ public class TheForest2Script : MonoBehaviour
     {
         SceneManager.LoadScene("TheForest1");
     }
+
+    public void Die()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Player has died!");
+    }
 }

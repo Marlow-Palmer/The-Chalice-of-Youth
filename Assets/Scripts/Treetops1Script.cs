@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Treetops1Script : MonoBehaviour
 {
-    public UnityEngine.UI.Button enemyButton;
-    public PlayerImmortality playerDamageScript;
     public void GoBackButton()
     {
         SceneManager.LoadScene("TheForest1");
@@ -17,23 +15,9 @@ public class Treetops1Script : MonoBehaviour
         SceneManager.LoadScene("Treetops2");
     }
 
-    public void EnemyButton()
+    public void Die()
     {
-        if(playerDamageScript.isImmortal) // Check if the player is immortal
-        {
-            enemyButton.interactable = false;
-            enemyButton.onClick.AddListener(DestroyButton);
-        }
-        else
-        {
-
-            Debug.Log("Player died");
-        }
-    }
-
-    public void DestroyButton()
-    {
-        Destroy(gameObject);
-        Debug.Log("Player killed the enemy");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Player has died!");
     }
 }
